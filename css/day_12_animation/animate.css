@@ -1,0 +1,27 @@
+.box{
+    height: 40px;
+    width: 100%;
+    animation-name: swipe;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 5ms;
+    animation-direction:alternate-reverse ;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    background-color: black;
+}
+
+@keyframes swipe {
+   from{
+     background-color: red;
+   }
+    50%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: yellowgreen;
+    }
+   to{
+      background-color: blue;
+   }
+}

@@ -1,0 +1,37 @@
+/* DRY principle */
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    padding: 200px;
+} */
+span , div , p {
+    color: blue;
+}
+
+p:hover {
+    color: red;
+}
+/* div{
+    color: blue;
+}
+p{
+    color: blue;
+} */
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    /* border-width: 2px;
+    border-style: none;
+    border-color: black; */
+    border: 2px solid black;
+    margin: 20px;
+    padding: 100px;
+}
+.box:hover{
+    border-style: solid;
+}

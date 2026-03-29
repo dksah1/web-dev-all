@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 1.5s ease;
+    /* transition-property:  width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+    /* transition: width 1s ease-in-out ,  height 1s ease-in-out 100ms , background-color 1s ease-in-out 200ms */
+    ; /* shorthand for all the above properties */
+    /* transition-delay: 100ms; */
+}
+
+.box:hover{
+    /* height: 400px;
+    width: 400px; */
+    background-color: blue;
+    translate: 100px 100px;
+    rotate: 45deg;
+    cursor: pointer;
+}

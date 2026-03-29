@@ -1,0 +1,28 @@
+
+.thulodabba {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid rgb(58, 234, 10);
+    display: inline-block;
+}
+ .sanodabba2 {
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+ }
+  .sanodabba3 {
+background-color: red;
+position: sticky;
+top: 0px;
+ }
+
+    

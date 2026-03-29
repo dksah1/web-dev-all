@@ -1,0 +1,29 @@
+  
+
+        .main {
+        width: 500px;
+        height: 200px;
+        background-color: #eee;
+        border: 2px solid black;
+        overflow: auto;
+        scrollbar-width: none;
+        display: flex;
+        flex-direction: column-reverse;
+
+
+      }
+      .left {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /* float: left; */
+
+     
+      }
+      .right {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        /* float:right; */
+        /* margin: 10px; */
+      }

@@ -1,0 +1,36 @@
+.element {
+  width: 40px;
+  height: 40px;
+  background-color: coral;
+  margin: 200px;
+  border-radius: 12px;
+  /* transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 0s; */
+  transition: all 1.5s ease-in-out 600ms;
+  animation: bounce 2s infinite;
+}
+.element:hover {
+  width: 60px;
+  cursor: pointer;
+  /* transform: rotate(135deg); */
+  background-color: limegreen;
+  /* scale: 5; */
+  height: 60px;
+  border-radius: 50%;
+  transform: rotate(135deg) scale(1.5);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    transform: rotate(75deg);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

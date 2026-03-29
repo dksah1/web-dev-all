@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Size Units in Depth</title>
+  </head>
+  <style>
+    :root {
+      font-size: 15px;
+    }
+
+    p {
+      width: 90vw;
+      height: fit-content;
+      background-color: lightblue;
+      font-size: 2rem; /* 1rem = 15px */
+    }
+    .dabba {
+      /* width: 50%; */
+      height: 0px;
+      /* height: 100%; */
+      min-height: 300px;
+     /* overflow: hidden; */
+      background-color: lightcoral;
+    }
+    span {
+      width: 100%;
+      height: 200px;
+      background-color: aqua;
+      display: none;
+    }
+  </style>
+  <body>
+    <h1>
+      CSS Size Units in Depth: Unlocking the Power of px, %, vw, vh, em, and rem
+    </h1>
+    <h1>max height , min height , max width , min width</h1>
+
+    <!-- <p >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi dolores
+      dolorem doloremque sit, ab sint rerum nisi veniam a sequi dignissimos qui
+      possimus consequatur aut eos unde, soluta nulla distinctio.
+    </p> -->
+    <div class="dabba">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+        dolores dolorem doloremque sit, ab sint rerum nisi veniam a sequi
+ 
+      </p>
+    </div>
+    <span>Lorem ipsum dolor sit amet. lorem400</span>
+  </body>
+</html>
